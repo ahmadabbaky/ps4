@@ -2,6 +2,16 @@
 <html><head>
 <title>PS4 Exploit Host by أحمد عبد الباقي</title>
 <link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+/* جعل النصوص العربية ورقم التليفون بخط عريض ومفخم */
+.btn-onln, #contact_info h1, #contact_info button, div#menu h1:last-child {
+    font-weight: 900;
+    font-family: 'Cairo', 'Amiri', 'Tajawal', sans-serif;
+}
+</style>
 </head>
 <body>
 <script>
@@ -12,7 +22,7 @@ var histlength=history.length;history.go(-histlength-2);
 <br>
 <div id=menu>
 <h1 style="font-size: 18px;color: yellow;">Select Your Firmware</h1>
-<button class="btn btn-multi" onmouseover="msgs.innerHTML='PS4 GoldHEN Host for 5.05 and 7.00 to 14.02 FW - (Auto Exploit Selection)'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="location.replace('g2all/index.html')"> GoldHEN Multi FW </button>
+<button class="btn btn-multi" onmouseover="msgs.innerHTML='PS4 GoldHEN 5.05 to 14.02 - (Auto Exploit Selection)'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="location.replace('g2all/index.html')"> GoldHEN 5.05 to 14.02 </button>
 <button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW Host v2.5'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="location.replace('505/index.html')"> 5.05 FW v2.5 </button>
 <a href="672goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'"> 6.72 FW GoldHEN </button></a>
 <a href="672/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW Host v3.0'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'"> 6.72 FW v3.0 </button></a>
@@ -22,15 +32,15 @@ var histlength=history.length;history.go(-histlength-2);
 <br>
 <button class="btn" onmouseover="msgs.innerHTML='Restore a Host to User&#8217;s Guide without using DNS'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="location.replace('restore/index.html')"> Restore Host </button>
 <br>
-<button class="btn btn-onln" onmouseover="msgs.innerHTML='للتواصل مع أحمد عبد الباقي لخدمات الصيانة'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="contact()" style="margin-top: 137px;margin-bottom: 77px;width: 468px;"> للتواصل والدعم الفني </button>
-<h1 style="margin-top: 78px;">تم التعديل بواسطة:<span style="color: #f31414;margin-left: 10px;margin-right: 10px;font-weight:bold;">أحمد عبد الباقي</span>لصيانة البلايستيشن</h1>
+<button class="btn btn-onln" onmouseover="msgs.innerHTML='للتواصل مع أحمد عبد الباقي لخدمات الصيانة'" onmouseout="msgs.innerHTML='PS4 Exploit Host by أحمد عبد الباقي'" onclick="contact()" style="margin-top: 137px;margin-bottom: 77px;width: 468px; font-weight: 900; font-size: 16px;"> للدعم الفني والتواصل مع أحمد عبد الباقي </button>
+<h1 style="margin-top: 78px; font-weight: 900;">تم التعديل بواسطة:<span style="color: #f31414;margin-left: 10px;margin-right: 10px;font-weight:900;">أحمد عبد الباقي</span>لصيانة البلايستيشن</h1>
 </div>
 <div id=contact_info style="display:none;">
-<h1 style="font-size: 22px;color: yellow;">للتواصل مع أحمد عبد الباقي:</h1>
+<h1 style="font-size: 22px;color: yellow; font-weight: 900;">للتواصل مع أحمد عبد الباقي:</h1>
 <br>
-<h1 style="font-size: 26px; direction: ltr; color: white;">📞 01030013388</h1>
+<h1 style="font-size: 32px; direction: ltr; color: white; font-weight: 900;">📞 01030013388</h1>
 <br>
-<button class="btn" onclick="load_menu()"> رجوع </button>
+<button class="btn" onclick="load_menu()" style="font-weight: 900;"> رجوع </button>
 </div>
 <script>
 function contact(){
